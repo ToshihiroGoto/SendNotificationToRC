@@ -1,0 +1,218 @@
+{
+  "__content" : [
+    {
+      "scenes" : [
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "alignment" : "horizontal",
+                "name" : "surface"
+              },
+              "behaviors" : [
+                {
+                  "__content" : [
+                    {
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "animationStyle" : "basic",
+                                          "duration" : 1.0299999713897705,
+                                          "emphasisAnimationType" : "flip",
+                                          "iterations" : 1,
+                                          "target" : [
+                                            "3788A5B5-0388-488A-8304-7B90FEBA6FAC"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "emphasis"
+                                        }
+                                      },
+                                      "identifier" : "CAF03C21-23B0-48E6-8188-ACA0D70B4B6A",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "D720E85C-A0B5-44CD-92E4-D9E217F8ACD2",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.364705890417099,
+                        0.74117648601531982,
+                        0.69019609689712524,
+                        1
+                      ],
+                      "identifier" : "BB0AA0A9-F871-4588-9C62-1062CA76F876",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "ビヘイビア",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "userIdentifier" : "TriggerFlip"
+                                },
+                                "name" : "custom"
+                              },
+                              "identifier" : "12B9C17D-751A-4F8F-9BC0-C77CE9651CAA",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 2
+                }
+              ],
+              "gravity" : [
+                0,
+                -9.8000001907348633,
+                0
+              ],
+              "hasGroundPlane" : true,
+              "identifier" : "F9610871-0955-494F-A5C3-51D1A281BAB3",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "4A213441-135C-450E-8EF8-1A4EAB267C1D" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "material",
+                          {
+                            "typeName" : "String",
+                            "value" : "steel"
+                          }
+                        ],
+                        [
+                          "type",
+                          {
+                            "typeName" : "String",
+                            "value" : "box"
+                          }
+                        ]
+                      ],
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CoreAssetFactories.PrimitiveShapeAssetFactory",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "3788A5B5-0388-488A-8304-7B90FEBA6FAC"
+                          }
+                        ],
+                        [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : "Steel Box"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0.05000000074505806,
+                        0,
+                        1
+                      ]
+                    }
+                  },
+                  "7F5F1ADC-E5E4-4EF5-A5B5-FC43B071FFA5" : null,
+                  "632E476F-1E55-4E30-9723-1C51DD2E8B89" : null,
+                  "B91C7CA3-4AB1-4253-9A84-07383168A8A8" : null
+                },
+                "factory" : null
+              },
+              "title" : "Box",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.96463245153427124,
+                  0,
+                  -0.26359853148460388,
+                  0,
+                  -0.14700140058994293,
+                  0.83006167411804199,
+                  -0.53794807195663452,
+                  0,
+                  0.2188030481338501,
+                  0.55767160654067993,
+                  0.80070436000823975,
+                  0,
+                  0.30524533987045288,
+                  0.53540664911270142,
+                  1.0788252353668213,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 4
+        }
+      ],
+      "tags" : {
+        "__content" : [
+          {
+            "tagsStore" : {
+
+            }
+          }
+        ],
+        "__version" : 1
+      }
+    }
+  ],
+  "__version" : 1
+}
